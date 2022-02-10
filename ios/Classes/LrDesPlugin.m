@@ -1,4 +1,5 @@
 #import "LrDesPlugin.h"
+#import <CommonCrypto/CommonCryptor.h>
 
 @implementation LrDesPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
